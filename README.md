@@ -20,8 +20,8 @@ the README, the evidence is in the repository, and the tests run in CI.
 
 ### Currently
 
-Working on implementation depth — writing more of the code myself rather than
+Deepening my implementation skills through evolutionary computation, security-focused software engineering,
 delegating it — and on evolutionary computation, which is where I would like to
-do research. Interested in software engineering internships.
+do research. Interested in software engineering and AI internships.
 
 Japanese (native) · English (IELTS 6.5)
