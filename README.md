@@ -12,7 +12,7 @@ run in CI.
 
 | | |
 |---|---|
-| [togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics) | University football records turned into reproducible analysis: 2,312 fixtures, reconstructed player-minutes, and publishable findings without redistributing amateur players' data. |
+| [togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics) | University football records turned into reproducible analysis: 2,312 fixtures, player-minutes rebuilt from lineups and free-text substitution times, a match forecast scored on seasons its settings never saw, and adjusted plus-minus ratings — none of it redistributing amateur players' data. |
 | [torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller) | An autonomous racing controller taken from 261.42 s to 106.63 s. Every number in the README traces to a committed measurement, including the one run whose weights were never saved. |
 | [two-stage-evacuation-router](https://github.com/sean-from-japan/two-stage-evacuation-router) | A high-school team project reimplemented as an explainable constrained-routing system that optimises the complete escape-to-shelter route instead of greedily choosing the nearest exit. |
 | [assessment-system-design-case-study](https://github.com/sean-from-japan/assessment-system-design-case-study) | Reading a system I helped build as an attacker would, then rebuilding its authorisation core so the findings are answered by code, not by prose. |
