@@ -15,6 +15,7 @@ run in CI.
 | | |
 |---|---|
 | [togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics) | University football records turned into reproducible analysis: 2,312 fixtures, player-minutes rebuilt from lineups and free-text substitution times, a match forecast scored on seasons its settings never saw, and adjusted plus-minus ratings — none of it redistributing amateur players' data. |
+| [football-setpiece-spotter](https://github.com/sean-from-japan/football-setpiece-spotter) | Corner detection in wide-angle amateur football footage, measured rather than demonstrated: every corner found from the dataset's own tracking, 0.43 recall once the positions come from perception built here, and the collapse traced to the one player the heuristic leans on. |
 | [torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller) | An autonomous racing controller taken from 261.42 s to 106.63 s. Every number in the README traces to a committed measurement, including the one run whose weights were never saved. |
 | [two-stage-evacuation-router](https://github.com/sean-from-japan/two-stage-evacuation-router) | A high-school team project reimplemented as an explainable constrained-routing system that optimises the complete escape-to-shelter route instead of greedily choosing the nearest exit. |
 | [assessment-system-design-case-study](https://github.com/sean-from-japan/assessment-system-design-case-study) | Reading a system I helped build as an attacker would, then rebuilding its authorisation core so the findings are answered by code, not by prose. |
@@ -48,6 +49,7 @@ Japanese (native) · English (IELTS 6.5)
 | | |
 |---|---|
 | [togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics) | 大学サッカーの記録を再現可能な分析にしたもの。2,312試合、先発と自由記述の交代時刻から再構成した出場時間、設定が見ていないシーズンで採点した試合予測、調整プラスマイナス評価。いずれもアマチュア選手のデータを再配布しない形 |
+| [football-setpiece-spotter](https://github.com/sean-from-japan/football-setpiece-spotter) | 広角カメラで撮ったアマチュアのサッカー映像からコーナーキックを見つけるもの。デモ動画ではなく実測が主眼。データセット付属の追跡データからは12本すべてを検出し、自前の認識で作った座標に置き換えると未見のハーフで再現率0.43まで低下。その落差が、判定規則の依存している1人の選手にあることまで特定した記録 |
 | [torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller) | 自律走行のレーシングコントローラを261.42秒から106.63秒まで短縮したもの。READMEの数値はすべてコミット済みの実測に辿れる。重みを保存できなかった1回の走行も含めて記載 |
 | [two-stage-evacuation-router](https://github.com/sean-from-japan/two-stage-evacuation-router) | 高校のチーム課題を、説明可能な制約付き経路探索として作り直したもの。最も近い出口を貪欲に選ぶのではなく、避難所までの経路全体を最適化 |
 | [assessment-system-design-case-study](https://github.com/sean-from-japan/assessment-system-design-case-study) | 構築に関わったシステムを攻撃者の視点で読み直し、認可の中核を作り直したもの。指摘に散文ではなくコードで答える構成 |
