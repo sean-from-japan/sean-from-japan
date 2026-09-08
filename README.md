@@ -30,7 +30,7 @@ Group work I went back to alone, to find out how much of it I could carry myself
 
 | | |
 |---|---|
-| **[torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller)**<br>`Python` | **An autonomous racing controller taken from 261.42 s to 106.63 s.** Every number in the README traces to a committed measurement, including the one run whose weights were never saved. |
+| **[torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller)**<br>`Python` | **An autonomous racing controller taken from 261.42 s to 106.63 s.** The recovered residual-network weights are published; a pinned-container rerun reached 107.08 s, 1.46 s faster than the CMA-only controller in the same environment. |
 | **[two-stage-evacuation-router](https://github.com/sean-from-japan/two-stage-evacuation-router)**<br>`Python` | **Escape routing that optimises the whole route to a shelter, not the nearest exit.** A high-school team project reimplemented as an explainable constrained-routing system. |
 
 #### Tools I built for my own work
@@ -91,7 +91,7 @@ Japanese (native) · English (IELTS 6.5)
 
 | | |
 |---|---|
-| **[torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller)**<br>`Python` | **自律走行のレーシングコントローラを261.42秒から106.63秒まで短縮**。READMEの数値はすべてコミット済みの実測に辿れる形。重みを保存できなかった1回の走行も記載 |
+| **[torcs-racing-controller](https://github.com/sean-from-japan/torcs-racing-controller)**<br>`Python` | **自律走行のレーシングコントローラを261.42秒から106.63秒まで短縮**。回収した残差NNの重みを公開し、固定コンテナでも107.08秒を記録。同一環境のCMA-ES単体より1.46秒速いことを確認 |
 | **[two-stage-evacuation-router](https://github.com/sean-from-japan/two-stage-evacuation-router)**<br>`Python` | **最も近い出口ではなく、避難所までの経路全体を最適化する避難経路探索**。高校のチーム課題を、説明可能な制約付き経路探索として作り直したもの |
 
 #### 自分の作業のために作ったもの
