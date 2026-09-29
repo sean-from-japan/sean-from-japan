@@ -12,8 +12,8 @@ run in CI.
 
 ### What to look at
 
-Ten public repositories. They came from four different places, so that is how
-they are grouped.
+More than ten public repositories. The ten selected below are grouped by
+where they came from.
 
 #### Football
 
@@ -35,11 +35,11 @@ Group work I went back to alone, to find out how much of it I could carry myself
 
 #### Tools I built for my own work
 
-Things I needed, so I made them, and then kept using them.
+Things I needed, so I built them for my own workflows.
 
 | | |
 |---|---|
-| **[ZzzMemo](https://github.com/sean-from-japan/ZzzMemo)**<br>`Python` | **The task manager I actually use, self-hosted.** Natural-language capture, LLM sorting with local fallback, calendar sync. |
+| **[ZzzMemo](https://github.com/sean-from-japan/ZzzMemo)**<br>`Python` | **A task manager I built for myself and deployed.** Natural-language capture, LLM sorting with local fallback, calendar sync. |
 | **[blog-asset-pipeline](https://github.com/sean-from-japan/blog-asset-pipeline)**<br>`Python` | **A manual delivery workflow turned into a CLI that refuses to ship a broken set.** Dependency-free image inspection, so it runs anywhere. |
 | **[evidence-first-travel-planner](https://github.com/sean-from-japan/evidence-first-travel-planner)**<br>`Python` | **Itineraries checked the way code is checked.** Travel-planning practice across roughly fifteen European countries distilled into a deterministic validator for provenance, freshness, time, transfers, conflicts, and fallbacks. |
 
@@ -60,6 +60,10 @@ constrained routing, evolutionary computation, security-focused design, and tool
 built around real workflows. Interested in software engineering and AI
 internships.
 
+I have also begun contributing to open source, with pull requests to several
+upstream projects. A [HighwayEnv documentation PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)
+has received approval from a project member.
+
 Japanese (native) · English (IELTS 6.5)
 
 ---
@@ -74,7 +78,7 @@ Japanese (native) · English (IELTS 6.5)
 
 ### 見てほしいもの
 
-公開しているのは10本です。
+公開リポジトリは10本以上あります。以下では代表的な10本を紹介します。
 
 #### サッカー
 
@@ -96,11 +100,11 @@ Japanese (native) · English (IELTS 6.5)
 
 #### 自分の作業のために作ったもの
 
-自分が必要になって作り、そのまま使い続けているものです。
+自分の作業で必要になり、作ったものです。
 
 | | |
 |---|---|
-| **[ZzzMemo](https://github.com/sean-from-japan/ZzzMemo)**<br>`Python` | **実際に自分で使っているタスク管理ツールをセルフホストしたもの**。自然言語での入力、ローカルにフォールバックするLLM分類、カレンダー同期 |
+| **[ZzzMemo](https://github.com/sean-from-japan/ZzzMemo)**<br>`Python` | **自分用に開発してデプロイしたタスク管理ツール**。自然言語での入力、ローカルにフォールバックするLLM分類、カレンダー同期 |
 | **[blog-asset-pipeline](https://github.com/sean-from-japan/blog-asset-pipeline)**<br>`Python` | **手作業だった納品フローを、不備のある一式は納品させないCLIにしたもの**。画像検査は依存なしで、どこでも動作 |
 | **[evidence-first-travel-planner](https://github.com/sean-from-japan/evidence-first-travel-planner)**<br>`Python` | **旅程をコードと同じように検査するもの**。ヨーロッパ約15ヶ国での旅程作成の経験を決定的な検証器にまとめ、出典、鮮度、時刻、乗り換え、矛盾、代替手段を検査 |
 
@@ -117,5 +121,7 @@ Japanese (native) · English (IELTS 6.5)
 ### 現在
 
 根拠を先に置くソフトウェア開発を通して、実装の力を積み上げています。対象はスポーツ分析、制約付き経路探索、進化計算、セキュリティを意識した設計、そして実際のワークフローに合わせたツールです。ソフトウェアエンジニアリングとAIのインターンに関心があります。
+
+OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。[HighwayEnvのドキュメント改善PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)は、プロジェクトのメンバーから承認されました。
 
 日本語（母語）・英語（IELTS 6.5）
