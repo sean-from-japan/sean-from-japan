@@ -61,8 +61,11 @@ built around real workflows. Interested in software engineering and AI
 internships.
 
 I have also begun contributing to open source, with pull requests to several
-upstream projects. A [HighwayEnv documentation PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)
-was approved and merged.
+upstream projects. My [PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)
+to [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv), a collection of
+reinforcement-learning environments for autonomous-driving decisions with over 3,000 GitHub stars,
+was approved and merged. It replaced the U-Turn demo GIF with an episode from
+a trained DQN policy.
 
 Japanese (native) · English (IELTS 6.5)
 
@@ -122,6 +125,6 @@ Japanese (native) · English (IELTS 6.5)
 
 根拠を先に置くソフトウェア開発を通して、実装の力を積み上げています。対象はスポーツ分析、制約付き経路探索、進化計算、セキュリティを意識した設計、そして実際のワークフローに合わせたツールです。ソフトウェアエンジニアリングとAIのインターンに関心があります。
 
-OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。[HighwayEnvのドキュメント改善PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)は、承認されマージされました。
+OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。GitHubで3,000スターを超える、自動運転の意思決定を扱う強化学習環境[HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)では、U-TurnのデモGIFを学習済みDQNのエピソードに差し替える[PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)が承認され、マージされました。
 
 日本語（母語）・英語（IELTS 6.5）
