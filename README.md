@@ -65,7 +65,9 @@ upstream projects. My [PR](https://github.com/Farama-Foundation/HighwayEnv/pull/
 to [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv), a collection of
 reinforcement-learning environments for autonomous-driving decisions with over 3,000 GitHub stars,
 was approved and merged. It replaced the U-Turn demo GIF with an episode from
-a trained DQN policy.
+a trained DQN policy. My [SoloDisplay PR](https://github.com/fanckush/SoloDisplay/pull/16)
+added Shortcuts and Spotlight actions for switching display arrangements. The
+maintainer approved and merged the code, then released it in v0.8.0.
 
 Japanese (native) · English (IELTS 6.5)
 
@@ -125,6 +127,6 @@ Japanese (native) · English (IELTS 6.5)
 
 根拠を先に置くソフトウェア開発を通して、実装の力を積み上げています。対象はスポーツ分析、制約付き経路探索、進化計算、セキュリティを意識した設計、そして実際のワークフローに合わせたツールです。ソフトウェアエンジニアリングとAIのインターンに関心があります。
 
-OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。GitHubで3,000スターを超える、自動運転の意思決定を扱う強化学習環境[HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)では、U-TurnのデモGIFを学習済みDQNのエピソードに差し替える[PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)が承認され、マージされました。
+OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。GitHubで3,000スターを超える、自動運転の意思決定を扱う強化学習環境[HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)では、U-TurnのデモGIFを学習済みDQNのエピソードに差し替える[PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)が承認され、マージされました。また、Macの画面切り替えアプリ[SoloDisplay](https://github.com/fanckush/SoloDisplay)では、ショートカットアプリとSpotlightから表示構成を切り替える機能を実装した[PR #16](https://github.com/fanckush/SoloDisplay/pull/16)が承認・マージされ、v0.8.0に収録されました。
 
 日本語（母語）・英語（IELTS 6.5）
