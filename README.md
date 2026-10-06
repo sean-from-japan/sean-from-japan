@@ -69,6 +69,13 @@ a trained DQN policy. My [SoloDisplay PR](https://github.com/fanckush/SoloDispla
 added Shortcuts and Spotlight actions for switching display arrangements. The
 maintainer approved and merged the code, then released it in v0.8.0.
 
+In [GitHub CLI](https://github.com/cli/cli), which has over 46,000 stars, I
+reported that `gh pr close <URL> --delete-branch` could force-delete a
+same-named branch in an unrelated local repository. I reproduced the deletion
+path with tests. A maintainer confirmed it as a bug and kept the
+[issue](https://github.com/cli/cli/issues/14550) open so that this separate
+path gets its own regression coverage alongside the related `gh pr merge` fix.
+
 Japanese (native) · English (IELTS 6.5)
 
 ---
@@ -128,5 +135,7 @@ Japanese (native) · English (IELTS 6.5)
 根拠を先に置くソフトウェア開発を通して、実装の力を積み上げています。対象はスポーツ分析、制約付き経路探索、進化計算、セキュリティを意識した設計、そして実際のワークフローに合わせたツールです。ソフトウェアエンジニアリングとAIのインターンに関心があります。
 
 OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。GitHubで3,000スターを超える、自動運転の意思決定を扱う強化学習環境[HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)では、U-TurnのデモGIFを学習済みDQNのエピソードに差し替える[PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)が承認され、マージされました。また、Macの画面切り替えアプリ[SoloDisplay](https://github.com/fanckush/SoloDisplay)では、ショートカットアプリとSpotlightから表示構成を切り替える機能を実装した[PR #16](https://github.com/fanckush/SoloDisplay/pull/16)が承認・マージされ、v0.8.0に収録されました。
+
+4.6万スターを超える[GitHub CLI](https://github.com/cli/cli)では、`gh pr close <URL> --delete-branch` が、無関係なローカルリポジトリにある同名のブランチを強制削除し得る不具合を報告しました。削除に至る経路はテストで再現しています。メンテナーにバグと認定され、関連する `gh pr merge` の修正とは別の経路として回帰テストを付けるため、[Issue](https://github.com/cli/cli/issues/14550)は開いたまま残されています。
 
 日本語（母語）・英語（IELTS 6.5）
