@@ -21,7 +21,7 @@ Two projects that started from watching matches, not from an assignment.
 
 | | |
 |---|---|
-| **[togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics)**<br>`Python` | **2,312 university fixtures turned into reproducible analysis.** Player-minutes rebuilt from lineups and free-text substitution times, a forecast scored on seasons its settings never saw, and adjusted plus-minus ratings — none of it redistributing amateur players' data. |
+| **[togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics)**<br>`Python` | **Over 2,000 university fixtures turned into reproducible analysis.** Player-minutes rebuilt from lineups and free-text substitution times, a forecast scored on seasons its settings never saw, and adjusted plus-minus ratings — none of it redistributing amateur players' data. |
 | **[football-setpiece-spotter](https://github.com/sean-from-japan/football-setpiece-spotter)**<br>`Python` | **Corner detection in amateur footage, measured rather than demonstrated.** Every corner found from the dataset's own tracking, 0.43 recall once the positions come from perception built here, and the collapse traced to the one player the heuristic leans on. |
 
 #### Team projects, revisited
@@ -98,7 +98,7 @@ Japanese (native) · English (IELTS 6.5)
 
 | | |
 |---|---|
-| **[togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics)**<br>`Python` | **大学サッカー2,312試合を再現可能な分析にしたもの**。先発と自由記述の交代時刻から再構成した出場時間、設定が見ていないシーズンで採点した試合予測、調整プラスマイナス評価。いずれもアマチュア選手のデータを再配布しない形 |
+| **[togakuren-analytics](https://github.com/sean-from-japan/togakuren-analytics)**<br>`Python` | **大学サッカー2,000試合以上を再現可能な分析にしたもの**。先発と自由記述の交代時刻から再構成した出場時間、設定が見ていないシーズンで採点した試合予測、調整プラスマイナス評価。いずれもアマチュア選手のデータを再配布しない形 |
 | **[football-setpiece-spotter](https://github.com/sean-from-japan/football-setpiece-spotter)**<br>`Python` | **アマチュアの映像からのコーナーキック検出を、デモではなく実測で示したもの**。データセット付属の追跡データからは12本すべてを検出し、自前の認識で作った座標では未見のハーフで再現率0.43まで低下。その落差が判定規則の依存する1人の選手にあることまで特定 |
 
 #### チーム課題を一人で作り直したもの
