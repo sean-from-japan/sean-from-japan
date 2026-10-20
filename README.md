@@ -74,6 +74,12 @@ fixed reads that failed when a team name contained a slash, such as `Bodø/Glimt
 because the name was used directly as a cache filename. After the maintainer's
 review, I moved the fix into a shared helper and applied it to ClubElo as well,
 and the PR was merged.
+In [EMBA](https://github.com/e-m-b-a/emba), a firmware security analyzer with
+over 3,500 stars, my [PR #2146](https://github.com/e-m-b-a/emba/pull/2146)
+stopped the optional license output from writing invalid `{"license": {}}`
+entries into CycloneDX SBOMs when a component's license was empty or a
+placeholder. I narrowed it to keep license output opt-in, as the project's
+existing TODO required, added regression tests, and the PR was approved and merged.
 
 In [GitHub CLI](https://github.com/cli/cli), which has over 46,000 stars, I
 reported that `gh pr close <URL> --delete-branch` could force-delete a
@@ -140,7 +146,7 @@ Japanese (native) · English (IELTS 6.5)
 
 根拠を先に置くソフトウェア開発を通して、実装の力を積み上げています。対象はスポーツ分析、制約付き経路探索、進化計算、セキュリティを意識した設計、そして実際のワークフローに合わせたツールです。ソフトウェアエンジニアリングとAIのインターンに関心があります。
 
-OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。GitHubで3,000スターを超える、自動運転の意思決定を扱う強化学習環境[HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)では、U-TurnのデモGIFを学習済みDQNのエピソードに差し替える[PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)が承認され、マージされました。また、Macの画面切り替えアプリ[SoloDisplay](https://github.com/fanckush/SoloDisplay)では、ショートカットアプリとSpotlightから表示構成を切り替える機能を実装した[PR #16](https://github.com/fanckush/SoloDisplay/pull/16)が承認・マージされ、v0.8.0に収録されました。サッカーのデータを収集する、2,000スターを超えるライブラリ[soccerdata](https://github.com/probberechts/soccerdata)では、チーム名をそのままキャッシュのファイル名に使っていたため、`Bodø/Glimt` のように「/」を含むチームでデータの読み込みが失敗していました。この不具合を[PR #978](https://github.com/probberechts/soccerdata/pull/978)で修正しました。メンテナーのレビューを受けて修正を共通の関数にまとめ、ClubEloの読み込みにも同じ修正を適用しました。このPRはその後マージされています。
+OSSへの貢献も始め、複数の外部プロジェクトにPRを提出しています。GitHubで3,000スターを超える、自動運転の意思決定を扱う強化学習環境[HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv)では、U-TurnのデモGIFを学習済みDQNのエピソードに差し替える[PR](https://github.com/Farama-Foundation/HighwayEnv/pull/746)が承認され、マージされました。また、Macの画面切り替えアプリ[SoloDisplay](https://github.com/fanckush/SoloDisplay)では、ショートカットアプリとSpotlightから表示構成を切り替える機能を実装した[PR #16](https://github.com/fanckush/SoloDisplay/pull/16)が承認・マージされ、v0.8.0に収録されました。サッカーのデータを収集する、2,000スターを超えるライブラリ[soccerdata](https://github.com/probberechts/soccerdata)では、チーム名をそのままキャッシュのファイル名に使っていたため、`Bodø/Glimt` のように「/」を含むチームでデータの読み込みが失敗していました。この不具合を[PR #978](https://github.com/probberechts/soccerdata/pull/978)で修正しました。メンテナーのレビューを受けて修正を共通の関数にまとめ、ClubEloの読み込みにも同じ修正を適用しました。このPRはその後マージされています。ファームウェアのセキュリティ解析ツールで、3,500スターを超える[EMBA](https://github.com/e-m-b-a/emba)では、任意で有効にするライセンス出力が、ライセンスが空や仮の値の部品について、CycloneDX形式のSBOMに無効な `{"license": {}}` を書き出していました。この不具合を[PR #2146](https://github.com/e-m-b-a/emba/pull/2146)で修正しました。既存のTODOのとおりライセンス出力は既定で無効のまま残すよう範囲を絞り、回帰テストを加えたうえで、承認・マージされました。
 
 4.6万スターを超える[GitHub CLI](https://github.com/cli/cli)では、`gh pr close <URL> --delete-branch` が、無関係なローカルリポジトリにある同名のブランチを強制削除し得る不具合を報告しました。削除に至る経路はテストで再現しています。メンテナーにバグと認定され、関連する `gh pr merge` の修正とは別の経路として回帰テストを付けるため、[Issue](https://github.com/cli/cli/issues/14550)は開いたまま残されています。
 
