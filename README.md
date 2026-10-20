@@ -41,7 +41,7 @@ Things I needed, so I built them for my own workflows.
 |---|---|
 | **[ZzzMemo](https://github.com/sean-from-japan/ZzzMemo)**<br>`Python` | **A task manager I built for myself and deployed.** Natural-language capture, LLM sorting with local fallback, calendar sync. |
 | **[blog-asset-pipeline](https://github.com/sean-from-japan/blog-asset-pipeline)**<br>`Python` | **A manual delivery workflow turned into a CLI that refuses to ship a broken set.** Dependency-free image inspection, so it runs anywhere. |
-| **[evidence-first-travel-planner](https://github.com/sean-from-japan/evidence-first-travel-planner)**<br>`Python` | **Itineraries checked the way code is checked.** Travel-planning practice across roughly fifteen European countries distilled into a deterministic validator for provenance, freshness, time, transfers, conflicts, and fallbacks. |
+| **[evidence-first-travel-planner](https://github.com/sean-from-japan/evidence-first-travel-planner)**<br>`Python` | **Itineraries checked the way code is checked.** Travel-planning practice across roughly fifteen European countries, run with an AI agent, distilled into a deterministic validator for provenance, freshness, time, transfers, conflicts, and fallbacks. |
 
 #### Coursework, rebuilt
 
@@ -124,7 +124,7 @@ Japanese (native) · English (IELTS 6.5)
 |---|---|
 | **[ZzzMemo](https://github.com/sean-from-japan/ZzzMemo)**<br>`Python` | **自分用に開発してデプロイしたタスク管理ツール**。自然言語での入力、ローカルにフォールバックするLLM分類、カレンダー同期 |
 | **[blog-asset-pipeline](https://github.com/sean-from-japan/blog-asset-pipeline)**<br>`Python` | **手作業だった納品フローを、不備のある一式は納品させないCLIにしたもの**。画像検査は依存なしで、どこでも動作 |
-| **[evidence-first-travel-planner](https://github.com/sean-from-japan/evidence-first-travel-planner)**<br>`Python` | **旅程をコードと同じように検査するもの**。ヨーロッパ約15ヶ国での旅程作成の経験を決定的な検証器にまとめ、出典、鮮度、時刻、乗り換え、矛盾、代替手段を検査 |
+| **[evidence-first-travel-planner](https://github.com/sean-from-japan/evidence-first-travel-planner)**<br>`Python` | **旅程をコードと同じように検査するもの**。ヨーロッパ約15ヶ国での、AIエージェントを使った旅程作成の経験を決定的な検証器にまとめ、出典、鮮度、時刻、乗り換え、矛盾、代替手段を検査 |
 
 #### 授業を作り直したもの
 
